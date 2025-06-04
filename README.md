@@ -1,5 +1,3 @@
-
-
 ## Dica: criar usuário e permissões
 Se quiser um setup mais seguro e profissional, crie um usuário dedicado:
 ```sh
