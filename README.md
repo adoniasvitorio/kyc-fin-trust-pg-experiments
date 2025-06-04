@@ -70,7 +70,7 @@ psql -d <kyc_database>
 If you want a more secure and professional setup, create a dedicated user:
 ```sh
 CREATE USER kyc_user WITH PASSWORD 'password';
-GRANT ALL PRIVILEGES ON DATABASE kyc_monolith TO kyc_user;
+GRANT ALL PRIVILEGES ON DATABASE <kyc_database> TO kyc_user;
 ```
 
 ## Fixture
