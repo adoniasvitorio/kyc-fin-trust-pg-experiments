@@ -5,7 +5,7 @@ DECLARE
     v_risk TEXT;
     v_sanctions TEXT;
 BEGIN
-    SELECT risk_level INTO v_risk FROM customer_risk_scores WHERE customer_id = p_customer_id;
+    SELECT risk_level INTO v_risk FROM risk_scores WHERE customer_id = p_customer_id;
     SELECT match_type INTO v_sanctions FROM sanctions_matches WHERE customer_id = p_customer_id ORDER BY checked_at DESC LIMIT 1;
 
     IF v_sanctions = 'match' THEN
