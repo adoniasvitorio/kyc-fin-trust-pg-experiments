@@ -40,7 +40,7 @@ Final sum:
 
 ---
 
-## Structure
+## Directory Structure
 
 ```sh
 sql/

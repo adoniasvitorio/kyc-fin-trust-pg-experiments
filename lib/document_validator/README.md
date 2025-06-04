@@ -17,7 +17,7 @@ This module is responsible for validating personal identification documents as p
 
 ---
 
-## Structure
+## Directory Structure
 
 ``` sh
 sql/

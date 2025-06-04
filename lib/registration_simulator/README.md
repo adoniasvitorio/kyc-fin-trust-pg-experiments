@@ -12,7 +12,7 @@ This module simulates the KYC customer registration process. It includes:
 
 ---
 
-## Structure
+## Directory Structure
 
 ```sh
 sql/

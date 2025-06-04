@@ -31,7 +31,7 @@ It allows checking if a customer has a full or partial name match with known ind
 
 ---
 
-## Structure
+## Directory Structure
 
 ```sh
 sql/

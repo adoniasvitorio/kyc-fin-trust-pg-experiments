@@ -10,4 +10,7 @@
 -- Initialize Module: Sanctions List Checker
 \i ../lib/sanctions_list_checker/sql/scripts/init_module.sql
 
+-- Initialize Module: Data Extractor
+\i ../lib/data_extractor/sql/scripts/init_module.sql
+
 -- Continue com outros módulos quando forem criados...
