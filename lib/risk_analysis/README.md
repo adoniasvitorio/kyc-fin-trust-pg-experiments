@@ -54,6 +54,8 @@ sql/
     └── init_module.sql
 
 tests/
+├── data_insert_documents.sql
+├── data_insert_kyc_questions.sql
 ├── test_calculate_risk_score.sql
 └── test_generate_risk_score.sql
 ```
