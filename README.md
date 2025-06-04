@@ -66,8 +66,8 @@ psql -d <kyc_database>
 \i scripts/init_all.sql
 ```
 
-## Dica: criar usuário e permissões
-Se quiser um setup mais seguro e profissional, crie um usuário dedicado:
+## Tip: Create User and Grant Permissions
+If you want a more secure and professional setup, create a dedicated user:
 ```sh
 CREATE USER kyc_user WITH PASSWORD 'password';
 GRANT ALL PRIVILEGES ON DATABASE kyc_monolith TO kyc_user;
