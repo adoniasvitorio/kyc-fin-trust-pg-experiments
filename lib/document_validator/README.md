@@ -19,7 +19,22 @@ This module is responsible for validating personal identification documents as p
 
 ## Structure
 
-<pre lang="text"> ``` sql/ ├── tables/ │ └── identity_documents.sql ├── functions/ │ ├── validate_cpf.sql │ └── validate_document.sql ├── procedures/ │ └── insert_document.sql └── scripts/ └── init_module.sql tests/ ├── test_validate_cpf.sql └── test_insert_document.sql ``` </pre>
+``` sh
+sql/
+├── tables/
+│ └── identity_documents.sql
+├── functions/
+│ ├── validate_cpf.sql
+│ └── validate_document.sql
+├── procedures/
+│ └── insert_document.sql
+└── scripts/
+└── init_module.sql
+
+tests/
+├── test_validate_cpf.sql
+└── test_insert_document.sql
+```
 
 ---
 
