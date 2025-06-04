@@ -66,7 +66,7 @@ psql -d <kyc_database>
 \i scripts/init_all.sql
 ```
 
-## Tip: Create User and Grant Permissions
+### Tip: Create User and Grant Permissions
 If you want a more secure and professional setup, create a dedicated user:
 ```sh
 CREATE USER kyc_user WITH PASSWORD 'password';
