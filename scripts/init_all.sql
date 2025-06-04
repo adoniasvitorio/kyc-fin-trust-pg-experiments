@@ -13,4 +13,5 @@
 -- Initialize Module: Data Extractor
 \i ../modules/data_extractor/sql/scripts/init_module.sql
 
--- Continue com outros módulos quando forem criados...
+-- Initialize Module: Compliance and Dashboards
+\i ../modules/compliance_dashboard/sql/scripts/init_module.sql
