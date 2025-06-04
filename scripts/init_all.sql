@@ -1,16 +1,16 @@
 -- Initialize Module: Document Validator
-\i ../lib/document_validator/sql/scripts/init_module.sql
+\i ../modules/document_validator/sql/scripts/init_module.sql
 
 -- Initialize Module: Registration Simulator
-\i ../lib/registration_simulator/sql/scripts/init_module.sql
+\i ../modules/registration_simulator/sql/scripts/init_module.sql
 
 -- Initialize Module: Risk Analysis
-\i ../lib/risk_analysis/sql/scripts/init_module.sql
+\i ../modules/risk_analysis/sql/scripts/init_module.sql
 
 -- Initialize Module: Sanctions List Checker
-\i ../lib/sanctions_list_checker/sql/scripts/init_module.sql
+\i ../modules/sanctions_list_checker/sql/scripts/init_module.sql
 
 -- Initialize Module: Data Extractor
-\i ../lib/data_extractor/sql/scripts/init_module.sql
+\i ../modules/data_extractor/sql/scripts/init_module.sql
 
 -- Continue com outros módulos quando forem criados...

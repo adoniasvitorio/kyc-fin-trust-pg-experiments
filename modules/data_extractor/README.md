@@ -36,6 +36,7 @@ For a `cnh` (driver's license):
 ---
 
 ## Directory Structure
+
 ```sh
 sql/
 ├── tables/
